@@ -5,44 +5,91 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>My First HTML Website</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
+            rel="stylesheet"
+        />
     </head>
-    <body>
+    <body style="font-family: Open Sans">
         <h1>Hello World! This is my first Blog!</h1>
         <section>
-            <div>
-                <h2>How to become a Frontend Engineer</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut
-                    consequatur rem asperiores autem repellat nam, error
-                    suscipit architecto ullam aspernatur debitis culpa iusto ea
-                    doloribus deleniti quos quia! Necessitatibus, quis.
-                </p>
-                <img src="./coding.jpg" alt="Laptop on the table" />
-                <a href="./article-1.html" target="_blank">Read More</a>
+            <div
+                style="display: flex; align-items: center; margin-bottom: 40px"
+            >
+                <div>
+                    <h2>How to become a Frontend Engineer</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut consequatur rem asperiores autem repellat nam, error
+                        suscipit architecto ullam aspernatur debitis culpa iusto
+                        ea doloribus deleniti quos quia! Necessitatibus, quis.
+                    </p>
+                    <a
+                        href="./article-1.html"
+                        target="_blank"
+                        style="color: blueviolet"
+                        >Read More</a
+                    >
+                </div>
+                <div>
+                    <img
+                        src="./coding.jpg"
+                        alt="Laptop on the table"
+                        style="width: 100%; height: auto"
+                    />
+                </div>
             </div>
-            <div>
-                <h2>Interview questions for Frontend Role</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Libero autem quia quam placeat nam est dignissimos.
-                    Cupiditate, illo odit repellendus sapiente dolorem sunt
-                    omnis, modi cum culpa voluptatum autem beatae!
-                </p>
-                <img src="./coding.jpg" alt="Laptop on the table" />
-                <a href="https://www.facebook.com">Read More</a>
+            <div
+                style="display: flex; align-items: center; margin-bottom: 40px"
+            >
+                <div>
+                    <h2>Interview questions for Frontend Role</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut consequatur rem asperiores autem repellat nam, error
+                        suscipit architecto ullam aspernatur debitis culpa iusto
+                        ea doloribus deleniti quos quia! Necessitatibus, quis.
+                    </p>
+                    <a
+                        href="./article-1.html"
+                        target="_blank"
+                        style="color: blueviolet"
+                        >Read More</a
+                    >
+                </div>
+                <div>
+                    <img
+                        src="./interview.jpg"
+                        alt="Laptop on the table"
+                        style="width: 100%; height: auto"
+                    />
+                </div>
             </div>
-
-            <div>
-                <h2>Software Engineers' Salary</h2>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptates, fugiat. Neque doloribus consequuntur nam id
-                    similique fugit dolores quae sapiente quasi molestias?
-                    Incidunt cum commodi voluptatem quas dolorum suscipit
-                    voluptas.
-                </p>
-                <img src="./coding.jpg" alt="Laptop on the table" />
-                <a href="https://www.twitter.com">Read More</a>
+            <div style="display: flex; align-items: center">
+                <div>
+                    <h2>Frontend Salaries</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Aut consequatur rem asperiores autem repellat nam, error
+                        suscipit architecto ullam aspernatur debitis culpa iusto
+                        ea doloribus deleniti quos quia! Necessitatibus, quis.
+                    </p>
+                    <a
+                        href="./article-1.html"
+                        target="_blank"
+                        style="color: blueviolet"
+                        >Read More</a
+                    >
+                </div>
+                <div>
+                    <img
+                        src="./money.jpg"
+                        alt="Laptop on the table"
+                        style="width: 100%; height: auto"
+                    />
+                </div>
             </div>
         </section>
         <section>
@@ -71,9 +118,27 @@
         <section>
             <h2>Read Top Articles in your inbox daily</h2>
             <form action="">
-                <input type="email" placeholder="Enter your email" />
+                <input
+                    type="email"
+                    placeholder="Enter your email"
+                    style="
+                        height: 30px;
+                        border: 1px solid blueviolet;
+                        border-radius: 6px;
+                    "
+                />
                 <!-- <button>Subscribe Now</button> -->
-                <input type="submit" value="Subscribe Now" />
+                <input
+                    type="submit"
+                    value="Subscribe Now"
+                    style="
+                        height: 35px;
+                        background-color: blueviolet;
+                        border: none;
+                        color: white;
+                        border-radius: 6px;
+                    "
+                />
             </form>
         </section>
     </body>
