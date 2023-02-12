@@ -11,13 +11,12 @@
             href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap"
             rel="stylesheet"
         />
+        <link rel="stylesheet" href="./styles.css" />
     </head>
-    <body style="font-family: Open Sans">
+    <body>
         <h1>Hello World! This is my first Blog!</h1>
         <section>
-            <div
-                style="display: flex; align-items: center; margin-bottom: 40px"
-            >
+            <div class="article">
                 <div>
                     <h2>How to become a Frontend Engineer</h2>
                     <p>
@@ -26,24 +25,17 @@
                         suscipit architecto ullam aspernatur debitis culpa iusto
                         ea doloribus deleniti quos quia! Necessitatibus, quis.
                     </p>
-                    <a
-                        href="./article-1.html"
-                        target="_blank"
-                        style="color: blueviolet"
-                        >Read More</a
-                    >
+                    <a href="./article-1.html" target="_blank">Read More</a>
                 </div>
                 <div>
                     <img
                         src="./coding.jpg"
                         alt="Laptop on the table"
-                        style="width: 100%; height: auto"
+                        class="article-image"
                     />
                 </div>
             </div>
-            <div
-                style="display: flex; align-items: center; margin-bottom: 40px"
-            >
+            <div class="article">
                 <div>
                     <h2>Interview questions for Frontend Role</h2>
                     <p>
@@ -52,22 +44,17 @@
                         suscipit architecto ullam aspernatur debitis culpa iusto
                         ea doloribus deleniti quos quia! Necessitatibus, quis.
                     </p>
-                    <a
-                        href="./article-1.html"
-                        target="_blank"
-                        style="color: blueviolet"
-                        >Read More</a
-                    >
+                    <a href="./article-1.html" target="_blank">Read More</a>
                 </div>
                 <div>
                     <img
                         src="./interview.jpg"
                         alt="Laptop on the table"
-                        style="width: 100%; height: auto"
+                        class="article-image"
                     />
                 </div>
             </div>
-            <div style="display: flex; align-items: center">
+            <div class="article">
                 <div>
                     <h2>Frontend Salaries</h2>
                     <p>
@@ -76,18 +63,13 @@
                         suscipit architecto ullam aspernatur debitis culpa iusto
                         ea doloribus deleniti quos quia! Necessitatibus, quis.
                     </p>
-                    <a
-                        href="./article-1.html"
-                        target="_blank"
-                        style="color: blueviolet"
-                        >Read More</a
-                    >
+                    <a href="./article-1.html" target="_blank">Read More</a>
                 </div>
                 <div>
                     <img
                         src="./money.jpg"
                         alt="Laptop on the table"
-                        style="width: 100%; height: auto"
+                        class="article-image"
                     />
                 </div>
             </div>
@@ -121,23 +103,13 @@
                 <input
                     type="email"
                     placeholder="Enter your email"
-                    style="
-                        height: 30px;
-                        border: 1px solid blueviolet;
-                        border-radius: 6px;
-                    "
+                    class="input-email"
                 />
                 <!-- <button>Subscribe Now</button> -->
                 <input
                     type="submit"
                     value="Subscribe Now"
-                    style="
-                        height: 35px;
-                        background-color: blueviolet;
-                        border: none;
-                        color: white;
-                        border-radius: 6px;
-                    "
+                    class="input-submit"
                 />
             </form>
         </section>

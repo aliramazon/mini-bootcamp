@@ -1,0 +1,36 @@
+body {
+    font-family: "Open Sans";
+}
+.article {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+a {
+    color: blueviolet;
+}
+
+.article-image {
+    width: 100%;
+    height: auto;
+}
+
+.input-email {
+    height: 30px;
+    border: 1px solid blueviolet;
+    border-radius: 6px;
+}
+
+.input-submit {
+    height: 35px;
+    background-color: blueviolet;
+    border: none;
+    color: white;
+    border-radius: 6px;
+}
+
+.article-page-header-image {
+    width: 100%;
+    height: auto;
+}
