@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #c56af0;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+section {
+    padding: 40px;
+}
+
+/* ======== Margin Section ========  */
+.margin-section {
+    border-bottom: 2px solid blueviolet;
+}
+
+.margin-section-p {
+    margin-bottom: 50px;
+    margin-left: 75px;
+    margin-top: 50px;
+    margin-right: 75px;
+
+    /* margin: top right bottom left */
+    /* margin: 50px 75px 50px 75px; */
+    margin: 50px 75px;
+}
+
+.margin-section-box {
+    height: 100px;
+    width: 100px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+}
+
+/* ======== Padding Section ========  */
+
+.padding-section {
+    border-bottom: 2px solid blueviolet;
+}
+
+.padding-section-box {
+    background-color: aquamarine;
+    /* padding: top right bottom left */
+    /* padding-top: 50px;
+    padding-right: 75px;
+    padding-bottom: 50px;
+    padding-left: 75px; */
+    /* padding: 50px 75px 50px 50px; */
+    padding: 50px 75px;
+    margin: 50px;
+}
+
+/* ======== Default Spacing Section ========  */
+
+.default-spacing-section-p {
+    margin-bottom: 30px;
+}
+
+/* ======== Box Sizing Section ========  */
+
+.boxsizing-section-box {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border: 50px solid red;
+    padding: 25px;
+}
+/* 
+height: 200px + 50px + 50px + 25px + 25px = 350px;
+width: 200px + 50px + 50px + 25px + 25px = 350px */
+
+.boxsizing-section h2 {
+    margin-bottom: 40px;
+}
