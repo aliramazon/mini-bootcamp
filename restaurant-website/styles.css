@@ -3,3 +3,19 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Header */
+
+.header {
+    background-color: pink;
+}
+
+.navigation {
+    background-color: aqua;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
