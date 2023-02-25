@@ -4,15 +4,35 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 ul {
     list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    height: 50px;
+    color: #ffffff;
+    background-color: #3fa72f;
+    border-radius: 133px;
+    border: none;
+    padding-left: 36px;
+    padding-right: 36px;
+    cursor: pointer;
 }
 
 /* Header */
 
 .header {
-    background-color: pink;
     height: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .logo-white {
@@ -20,7 +40,6 @@ ul {
 }
 
 .navigation {
-    background-color: aqua;
     max-width: 1440px;
     margin: 0 auto;
 
@@ -34,8 +53,23 @@ ul {
     display: flex;
     gap: 45px;
     align-items: center;
-    background-color: blanchedalmond;
 }
+
+.navigation__links li a {
+    color: #311f09;
+    font-size: 14px;
+}
+
+#navigation__link {
+    color: #ff8a00;
+}
+/* .navigation__links li:first-child a {
+    color: #ff8a00;
+} */
+
+/* .navigation__links .navigation__link {
+    color: #ff8a00;
+} */
 
 .navigation__actions {
     display: flex;
@@ -44,5 +78,17 @@ ul {
 }
 
 .navigation__actions img {
+    height: 24px;
+    width: 24px;
+}
+
+.navigation__actions figure {
+    height: 50px;
+    width: 50px;
+    background-color: #ecf0f1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 25px;
 }
