@@ -4,18 +4,45 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+}
+
 /* Header */
 
 .header {
     background-color: pink;
+    height: 80px;
+}
+
+.logo-white {
+    height: 51px;
 }
 
 .navigation {
     background-color: aqua;
     max-width: 1440px;
     margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
-ul {
-    list-style-type: none;
+.navigation__links {
+    display: flex;
+    gap: 45px;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+
+.navigation__actions {
+    display: flex;
+    align-items: center;
+    /* gap: 25px; */
+}
+
+.navigation__actions img {
+    margin-right: 25px;
 }
