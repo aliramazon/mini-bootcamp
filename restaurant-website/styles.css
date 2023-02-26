@@ -97,13 +97,16 @@ a {
 
 .hero-section__container {
     max-width: 1440px;
-    padding-left: 80px;
+    /* padding-left: 80px;
     padding-right: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px; */
+    padding: 80px;
     margin: 0 auto;
-    background-color: antiquewhite;
 
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 
 .hero-section__left {
@@ -112,5 +115,27 @@ a {
 
 .hero-section__right {
     width: 50%;
-    background-color: blue;
+    height: max-content;
+}
+
+.hero-section__img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-section__left span {
+    display: block;
+    margin-bottom: 24px;
+}
+
+.hero-section__heading {
+    margin-bottom: 24px;
+}
+
+.hero-section__description {
+    margin-bottom: 72px;
+}
+
+.hero-section__cta button:first-child {
+    margin-right: 12px;
 }
