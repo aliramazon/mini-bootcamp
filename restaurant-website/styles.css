@@ -16,10 +16,11 @@ a {
     text-decoration: none;
 }
 
+/* Button */
+/*  Sizes: Small - 50px, Medium - 55px, Large-74px, 
+Colors: Primary - Orange, Secondary - Green, Tertiary - Black, Gray */
 .btn {
-    height: 50px;
     color: #ffffff;
-    background-color: #3fa72f;
     border-radius: 133px;
     border: none;
     padding-left: 36px;
@@ -27,6 +28,28 @@ a {
     cursor: pointer;
 }
 
+.btn-large {
+    height: 74px;
+    font-size: 20px;
+}
+
+.btn-medium {
+    height: 55px;
+    font-size: 16px;
+}
+
+.btn-small {
+    height: 50px;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #ff8a00;
+}
+
+.btn-secondary {
+    background-color: #3fa72f;
+}
 /* Header */
 
 .header {
@@ -126,14 +149,24 @@ a {
 .hero-section__left span {
     display: block;
     margin-bottom: 24px;
+    font-size: 18px;
+    background-color: #ff8a0033;
+    width: max-content;
+    color: #ff8a00;
+    padding: 5px 20px;
+    border-radius: 120px;
 }
 
 .hero-section__heading {
     margin-bottom: 24px;
+    font-size: 80px;
+    line-height: 88px;
 }
 
 .hero-section__description {
-    margin-bottom: 72px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    color: #5c4529;
 }
 
 .hero-section__cta button:first-child {
