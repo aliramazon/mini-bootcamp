@@ -31,8 +31,6 @@ a {
 
 .header {
     height: 80px;
-    padding-left: 80px;
-    padding-right: 80px;
 }
 
 .logo-white {
@@ -47,6 +45,8 @@ a {
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .navigation__links {
@@ -91,4 +91,26 @@ a {
     align-items: center;
     justify-content: center;
     margin-right: 25px;
+}
+
+/* Hero Section */
+
+.hero-section__container {
+    max-width: 1440px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin: 0 auto;
+    background-color: antiquewhite;
+
+    display: flex;
+    align-items: center;
+}
+
+.hero-section__left {
+    width: 50%;
+}
+
+.hero-section__right {
+    width: 50%;
+    background-color: blue;
 }
