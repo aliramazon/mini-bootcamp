@@ -125,15 +125,27 @@ a {
 
 .hero-section__left span {
     display: block;
+    width: max-content;
     margin-bottom: 24px;
+    background-color: #ff8a0033;
+    color: #ff8a00;
+    font-size: 18px;
+    border-radius: 123px;
+    padding: 5px 20px;
 }
 
 .hero-section__heading {
     margin-bottom: 24px;
+    color: #311f09;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 88px;
 }
 
 .hero-section__description {
-    margin-bottom: 72px;
+    margin-bottom: 50px;
+    color: #5c4529;
+    font-size: 20px;
 }
 
 .hero-section__cta button:first-child {
