@@ -53,6 +53,32 @@ a {
     cursor: pointer;
 }
 
+.btn-large-black {
+    height: 74px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #311f09;
+    border: none;
+    border-radius: 162px;
+    padding-right: 55px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+
+.btn-large-gray {
+    height: 74px;
+    color: #311f09;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ecf0f1;
+    border: none;
+    border-radius: 162px;
+    padding-right: 55px;
+    padding-left: 55px;
+    cursor: pointer;
+}
+
 /* Header */
 
 .header {
@@ -222,4 +248,25 @@ a {
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 40px;
+}
+
+/* Menu Section */
+
+.menu-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.menu-section__container h2 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 70px;
+    color: #311f09;
+    margin-bottom: 50px;
+}
+
+.menu-section__filters {
+    display: flex;
+    justify-content: space-between;
 }
