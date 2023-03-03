@@ -247,3 +247,33 @@
     align-items: center;
     justify-content: space-between;
 }
+
+/* Reservation Section */
+
+#reservation-section {
+    background-color: #fff4e766;
+}
+
+.reservation-section__container {
+    padding-left: 0;
+    padding-right: 80px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.reservation-section__left {
+    width: 55%;
+}
+
+.reservation-section__left img {
+    width: 100%;
+    height: auto;
+}
+
+.reservation-section__right {
+    width: 45%;
+}
