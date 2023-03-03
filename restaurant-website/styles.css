@@ -288,7 +288,7 @@ a {
 .menu-section__meals {
     display: flex;
     flex-wrap: wrap;
-    /* gap: 40px; */
+    gap: 40px;
 }
 
 .menu-section__stars {
@@ -306,10 +306,11 @@ a {
 }
 
 .card {
-    width: 33.333%;
+    width: calc((100% - 80px) / 3);
 
     padding: 35px 37px;
-    background-color: #ecf0f1;
+    background-color: #d0ccc733;
+    border-radius: 70px;
 }
 
 .card__img {
@@ -332,6 +333,7 @@ a {
     line-height: 28px;
     color: #59442b;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .card__footer {
