@@ -365,3 +365,18 @@
     line-height: 50px;
     font-weight: 400;
 }
+
+/* Testimonials Section */
+
+#testimonials-section {
+    background-image: url("./assets/customers.png");
+    background-size: cover;
+    background-position: top;
+    background-color: #fbfafa;
+}
+
+.testimonials-section__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+}
