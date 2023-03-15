@@ -448,6 +448,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
 }
 
 .hours-section__hours h2 {
@@ -455,7 +456,6 @@
     font-size: 60px;
     line-height: 70px;
     margin-bottom: 15px;
-    text-align: center;
 }
 
 .hours-section__hours h3 {
@@ -463,12 +463,12 @@
     font-size: 30px;
     line-height: 60px;
     font-weight: 600;
-    text-align: center;
 }
 
 .hours-section__lunch-dinner {
     width: max-content;
     margin: 0 auto;
+    margin-bottom: 50px;
 }
 
 .hours-section__lunch-dinner p {
@@ -480,4 +480,8 @@
 
 .hours-section__lunch-dinner p:last-child {
     text-align: right;
+}
+
+.hours-section__hours .btn-large-orange {
+    margin-right: 15px;
 }

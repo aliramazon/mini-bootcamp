@@ -91,3 +91,16 @@ a {
     padding-left: 55px;
     cursor: pointer;
 }
+
+.btn-large-white {
+    height: 74px;
+    color: #311f09;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 162px;
+    padding-right: 55px;
+    padding-left: 55px;
+    cursor: pointer;
+}
