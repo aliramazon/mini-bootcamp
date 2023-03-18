@@ -485,3 +485,22 @@
 .hours-section__hours .btn-large-orange {
     margin-right: 15px;
 }
+
+/* Footer */
+
+#footer {
+    background-color: #311f09;
+}
+
+.footer__container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 80px;
+}
+
+.footer__container p {
+    color: #e3e2e0;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
