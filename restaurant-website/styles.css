@@ -498,9 +498,24 @@
     padding: 80px;
 }
 
-.footer__container p {
+.footer__text {
     color: #e3e2e0;
     font-size: 20px;
     line-height: 40px;
+}
+
+.footer__brand {
+    width: 30%;
+}
+
+.text-center {
     text-align: center;
+}
+
+.footer__social-icons {
+    margin-top: 40px;
+}
+
+.footer__logo {
+    margin-bottom: 25px;
 }
