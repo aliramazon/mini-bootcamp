@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Poppins";
-    src: url("./assets/fonts/Poppins-Regular.ttf") format("woff2"),
-        url("./assets/fonts/Poppins-SemiBold.ttf") format("woff");
+    src: url("./assets/fonts/Poppins-Regular.ttf") format("ttf"),
+        url("./assets/fonts/Poppins-SemiBold.ttf") format("ttf");
 }
 * {
     padding: 0;
