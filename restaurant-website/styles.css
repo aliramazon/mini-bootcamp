@@ -27,19 +27,19 @@
 }
 
 .navigation__links li a {
-    color: #311f09;
+    color: rgb(49, 31, 9);
     font-size: 14px;
 }
 
 #navigation__link {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 }
 /* .navigation__links li:first-child a {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 } */
 
 /* .navigation__links .navigation__link {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 } */
 
 .navigation__actions {
@@ -56,7 +56,7 @@
 .navigation__actions figure {
     height: 50px;
     width: 50px;
-    background-color: #ecf0f1;
+    background-color: rgb(236, 240, 241);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -96,8 +96,8 @@
     display: block;
     width: max-content;
     margin-bottom: 24px;
-    background-color: #ff8a0033;
-    color: #ff8a00;
+    background-color: rgb(255, 138, 0) 33;
+    color: rgb(255, 138, 0);
     font-size: 18px;
     border-radius: 123px;
     padding: 5px 20px;
@@ -105,7 +105,7 @@
 
 .hero-section__heading {
     margin-bottom: 24px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     font-size: 80px;
     font-weight: 600;
     line-height: 88px;
@@ -113,7 +113,7 @@
 
 .hero-section__description {
     margin-bottom: 50px;
-    color: #5c4529;
+    color: rgb(92, 69, 41);
     font-size: 20px;
 }
 
@@ -124,7 +124,7 @@
 /* Welcome Section */
 
 #welcome-section {
-    background-color: #3fc66e1a;
+    background-color: rgba(63, 198, 110, 0.102);
 }
 
 .welcome-section__container {
@@ -149,16 +149,16 @@
 .welcome-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     margin-bottom: 50px;
 }
 
 .welcome-section__right h2 span {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 }
 
 .welcome-section__right p {
-    color: #5c4529;
+    color: rgb(92, 69, 41);
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 40px;
@@ -174,7 +174,7 @@
     text-align: center;
     font-size: 60px;
     line-height: 70px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     margin-bottom: 50px;
 }
 
@@ -200,7 +200,7 @@
 .menu-section__price {
     font-size: 25px;
     line-height: 38px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     font-weight: 600;
 }
 
@@ -208,7 +208,7 @@
     width: calc((100% - 80px) / 3);
 
     padding: 35px 37px;
-    background-color: #d0ccc733;
+    background-color: rgba(208, 204, 199, 0.2);
     border-radius: 70px;
 }
 
@@ -230,7 +230,7 @@
 .card__text {
     font-size: 14px;
     line-height: 28px;
-    color: #59442b;
+    color: rgb(89, 68, 43);
     text-align: center;
     margin-bottom: 30px;
 }
@@ -244,7 +244,7 @@
 /* Reservation Section */
 
 #reservation-section {
-    background-color: #fff4e766;
+    background-color: rgba(255, 244, 231, 0.4);
 }
 
 .reservation-section__container {
@@ -274,16 +274,16 @@
 .reservation-section__right h2 {
     font-size: 60px;
     line-height: 70px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     margin-bottom: 50px;
 }
 
 .reservation-section__right h2 span {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 }
 
 .reservation-section__right p {
-    color: #5c4529;
+    color: rgb(92, 69, 41);
     font-size: 20px;
     line-height: 40px;
     margin-bottom: 40px;
@@ -299,11 +299,11 @@
 .chefs-section__container h2 {
     font-size: 60px;
     line-height: 70px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     margin-bottom: 50px;
 }
 .chefs-section__container h2 span {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
 }
 
 .chefs-section__chefs {
@@ -324,27 +324,27 @@
 }
 
 .chefs-section__chef:first-child img {
-    background-color: #c4c4c4;
+    background-color: rgb(196, 196, 196);
 }
 
 .chefs-section__chef:nth-child(2) img {
-    background-color: #ff8a0033;
+    background-color: rgb(255, 138, 0) 33;
 }
 
 .chefs-section__chef:last-child img {
-    background-color: #9d654233;
+    background-color: rgba(157, 101, 66, 0.2);
 }
 
 .chefs-section__chef h4 {
     margin-bottom: 15px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     font-weight: 600;
     font-size: 25px;
     line-height: 50px;
 }
 
 .chefs-section__chef p {
-    color: #a08d76;
+    color: rgb(160, 141, 118);
     font-size: 25px;
     line-height: 50px;
     font-weight: 400;
@@ -356,7 +356,7 @@
     background-image: url("./assets/customers.png");
     background-size: cover;
     background-position: top;
-    background-color: #fbfafa;
+    background-color: rgb(251, 250, 250);
 }
 
 .testimonials-section__container {
@@ -366,7 +366,7 @@
 .testimonials-section__container h2 {
     font-size: 60px;
     line-height: 70px;
-    color: #311f09;
+    color: rgb(49, 31, 9);
     margin-bottom: 100px;
     text-align: center;
 }
@@ -390,14 +390,14 @@
 }
 
 .testimonials-section__testimonial h4 {
-    color: #311f09;
+    color: rgb(49, 31, 9);
     font-weight: 600;
     font-size: 25px;
     line-height: 50px;
 }
 
 .testimonials-section__testimonial h5 {
-    color: #5c4529;
+    color: rgb(92, 69, 41);
     font-size: 18px;
     line-height: 36px;
     font-weight: 600;
@@ -405,7 +405,7 @@
 }
 
 .testimonials-section__testimonial p {
-    color: #5c4529;
+    color: rgb(92, 69, 41);
     font-weight: 400;
     font-size: 16px;
     line-height: 32px;
@@ -432,14 +432,14 @@
 }
 
 .hours-section__hours h2 {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-size: 60px;
     line-height: 70px;
     margin-bottom: 15px;
 }
 
 .hours-section__hours h3 {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     font-size: 30px;
     line-height: 60px;
     font-weight: 600;
@@ -452,7 +452,7 @@
 }
 
 .hours-section__lunch-dinner p {
-    color: #ffffff;
+    color: rgb(255, 255, 255);
     text-align: center;
 
     line-height: 200%;
@@ -469,7 +469,7 @@
 /* Footer */
 
 #footer {
-    background-color: #311f09;
+    background-color: rgb(49, 31, 9);
 }
 
 .footer__container {
@@ -483,7 +483,7 @@
 }
 
 .footer__text {
-    color: #e3e2e0;
+    color: rgb(227, 226, 224);
     font-size: 16px;
     line-height: 32px;
     display: block;
@@ -498,7 +498,7 @@
 }
 
 .footer__heading {
-    color: #ff8a00;
+    color: rgb(255, 138, 0);
     font-size: 25px;
     line-height: 50px;
 }
